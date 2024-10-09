@@ -595,17 +595,17 @@
  &bus_npu {
      bus-supply = <&vdd_logic>;
      pvtm-supply = <&vdd_cpu>;
-     status = "disabled";
+     status = "okay";
  };
  
  &rknpu {
      memory-region = <&rknpu_reserved>;
      rknpu-supply = <&vdd_gpu>;
-     status = "disabled";
+     status = "okay";
  };
  
  &rknpu_mmu {
-     status = "disabled";
+     status = "okay";
  };
  
  &saradc {
