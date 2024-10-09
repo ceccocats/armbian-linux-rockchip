@@ -46,7 +46,7 @@
      };
  
      chosen: chosen {
-         bootargs = "earlycon=uart8250,mmio32,0xfe660000 console=tty1  console=ttyFIQ0 root=PARTUUID=614e0000-0000 rw rootwait";
+         bootargs = "earlycon=uart8250,mmio32,0xfe660000 console=ttyFIQ0 root=PARTUUID=614e0000-0000 rw rootwait";
      };
  
      fiq_debugger: fiq-debugger {
@@ -801,31 +801,31 @@
  };
  
  &u2phy0_host {
-     status = "disabled";
+     status = "okay";
  };
  
  &u2phy1_otg {
-     status = "disabled";
+     status = "okay";
  };
  
  &u2phy1_host {
-     status = "disabled";
+     status = "okay";
  };
  
  &usb_host0_ehci {
-     status = "disabled";
+     status = "okay";
  };
  
  &usb_host0_ohci {
-     status = "disabled";
+     status = "okay";
  };
  
  &usb_host1_ehci {
-     status = "disabled";
+     status = "okay";
  };
  
  &usb_host1_ohci {
-     status = "disabled";
+     status = "okay";
  };
  
  &gmac1 {
